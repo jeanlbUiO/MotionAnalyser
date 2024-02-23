@@ -351,7 +351,7 @@ classdef MotionAnalyser < matlab.apps.AppBase
 
     properties (Access = private)
 
-        % Browse
+        % Browse a file
         file % name of the imported file as element name
         path % importation path
         Table % imported data table
